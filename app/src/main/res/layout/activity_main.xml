@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/instructionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leeme cuando te sientas ..."
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/sadView"
+        android:layout_width="315dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:text="Triste"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sadColor" />
+
+    <TextView
+        android:id="@+id/desView"
+        android:layout_width="315dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:text="Desmotivada"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desColor" />
+
+    <TextView
+        android:id="@+id/madView"
+        android:layout_width="315dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:text="Enfadada"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/madColor" />
+
+    <TextView
+        android:id="@+id/preView"
+        android:layout_width="315dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:text="Preocupada"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preColor" />
+
+    <TextView
+        android:id="@+id/lowView"
+        android:layout_width="315dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:text="Espiritualmente mal"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lowColor" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="260dp"
+        android:layout_height="64dp"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <TextView
+        android:id="@+id/sadColor"
+        android:layout_width="34dp"
+        android:layout_height="25dp"
+        android:background="@drawable/sad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <TextView
+        android:id="@+id/desColor"
+        android:layout_width="34dp"
+        android:layout_height="25dp"
+        android:background="@drawable/des"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <TextView
+        android:id="@+id/madColor"
+        android:layout_width="34dp"
+        android:layout_height="25dp"
+        android:background="@drawable/mad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/preColor"
+        android:layout_width="34dp"
+        android:layout_height="25dp"
+        android:background="@drawable/pre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lowColor"
+        android:layout_width="34dp"
+        android:layout_height="25dp"
+        android:background="@drawable/low"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <!--
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="600dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="570dp">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameText"
+            android:layout_width="357dp"
+            android:layout_height="46dp"
+            android:hint="add name here"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="657dp" />
+
+        <Button
+            android:id="@+id/queryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Query"
+            tools:layout_editor_absoluteX="293dp"
+            tools:layout_editor_absoluteY="609dp" />
+
+        <TextView
+            android:id="@+id/nameLabel"
+            android:layout_width="78dp"
+            android:layout_height="20dp"
+            android:text="Name: "
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="610dp" />
+
+    -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
