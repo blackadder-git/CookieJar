@@ -29,8 +29,8 @@ This app connects to a Firebase Realtime Database and can send requests to Creat
 # Useful Websites
 
 - [Firebase](https://firebase.google.com/)
-- [Realtime Database]([http://url.link.goes.here](https://firebase.google.com/docs/database))
-- [Read and Write on Android]([https://firebase.google.com/](https://firebase.google.com/docs/database/android/read-and-write))
+- [Realtime Database](https://firebase.google.com/docs/database)
+- [Read and Write on Android](https://firebase.google.com/docs/database/android/read-and-write)
 
 # Future Work
 
