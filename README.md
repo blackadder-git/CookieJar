@@ -1,30 +1,26 @@
 # Overview
-
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
 {Provide a description of the software that you wrote and how it integrates with a Cloud Database. Describe how to use your program.}
-When the app is opened, users see a list of different thoughts organized by category. Two numbers represent the total quantity and the number read.
-This app connects to a Firebase Realtime Database and can send requests to Create, Read, Update and Delete data.
+The purpose of this software is to provide a list of inspirational thoughts organized by topic. Two numbers indicate the total number of each thought and the number of thoughts already looked at. If clicked, the category will display a random thought with options to mark as favorite, delete or close. Another screen allows the user to submit new thoughts.
 
+The main screen *reads* data from a Firebase Realtime Database. When a user views a thought, the database is *updated*. If the user clicks *delete* the record is removed from the cloud. If the user submits data from the add new screen, a new record is *created* 
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
+I wrote this program after my daughters created a real jar with notes in a church activity. I liked the ideas and wanted to create a virtual equivalent.
 
 [Software Demo Video](https://github.com/blackadder-git/byui/tree/main/cse310/cookie.html)
 
 # Cloud Database
 
-* Google Firebase
-
-- The database consists of a high level user object that stores the names of each user. In addition there is an object for each user that contains zero or more thought objects.
-- Each thought has a String field for *quote* and *topic* and a Boolean field for *favorite* and *read*
+* Google Firebase Realtime Database
+- The database consists of a high level user object that stores the names of each user.
+- In addition there is an object for each user that contains zero or more thought objects.
+- Each thought has a String field for *quote* and *topic* and a Boolean field for *favorite* and *read* for a total of four fields
 
 # Development Environment & Language
 
 - Android Studio 2022.2.1 Patch 2
 - JDK 17
 - Kotlin 1.8.20
+- Firebase Realtime Database
 
 # Useful Websites
 
