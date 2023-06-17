@@ -5,7 +5,7 @@ The main screen *reads* data from a Firebase Realtime Database. When a user view
 
 I wrote this program after my daughters created a real jar with notes in a church activity. I liked the ideas and wanted to create a virtual equivalent.
 
-[Software Demo Video](https://github.com/blackadder-git/byui/tree/main/cse310/cookie.html)
+[Software Demo Video]((https://blackadder-git.github.io/byui/cse310/cookie.html)
 
 # Cloud Database
 * Google Firebase Realtime Database
